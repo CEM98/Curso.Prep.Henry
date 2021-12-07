@@ -1,0 +1,44 @@
+For
+El bucle for es dicho en otras palabras un giro de instrucciones que se detiene segun nosotros queramos, se puede programar que se repitan las instrucciones tantas veces como necesitamos.
+Por ejemplo: si yo necesito que cierta instruccion se repita 10 veces, lo que va a pasar es que va a comenzar a correr el bucle, va a ejecutar esta instrucción y una vez que termine de ejecutarla el bucle va a volver a comenzar, así hasta realizarlo 10 veces.
+ 
+A continuación vemos como se desarrola el bucle for:
+Primero comenzamos con la palabra "for", abrimos parentesis "()" y dentro de los mismos vamos a declarar una variable "i" la cual va a ser igual o va a comenzar en el numero que nosotros indiquemos, por ejemplo en "0" o "1", "2", "3","4",etc,
+luego separando por un punto coma ";" vamos a indicar hasta donde queremos que nuestro bucle gire escribiendo "i= " y a su lado la cantidad de vueltas o giros por ejemplo "10", de nuevo colocamos ";" y ahora vamos a decirle a nuestro bucle en cuanto queremos 
+que nuestra variable i se vaya incrementando colocando "i++", es decir que queremos que i aumente de 1 en 1 .
+Dentro de nuestro bucle for vamos a colocar la instruccion que nosostros queremos que se ejecute cierta cantidad de veces.
+
+for (var i=1 ;i=10;i++){
+   ........
+}
+
+-------------------------------------------------------------------------------------
+OPERADORES LOGICOS && || !
+
+El operador logico "&&" ("AND") se utiliza por ejemplo en los flujos de control "If", se utiliza para indicar si dos o más condidiones se cumplen o son verdaderas, es decir que si una de esas condiciones es falsa o no se cumple el operador && devolvera que todo es falso
+o que no se cumplio ninguna condicion.
+ 
+Por ejemplo: si decimos que 5 es menor que 7 y que 4 es mayor que 3, estariamos con dos condiciones verdaderas, por lo que el operador && va a devolver que si secumple la condicion pasará a ejecutar la acción o instrucción que nosotros hayamos colocado 
+dentro del if, la cual en nuestro caso colocamos que devuelva o retorne un "true".Si la condión no llega a cumplirse se retornara "false".
+
+if ( 5 < 7 && 4 > 3 ){
+    return true;
+}
+return false
+
+||
+El operador logico "||" ("OR") se utiliza para indicar en el control de flujo "If" cuando dos o más condiciones pueden cumplirse.
+Por ejemplo: Queremos que se verifique si el numero que ingresa una persona es 3 o 7 o 11, esto quiere decir que si el numero que ingresa la persona es igual a uno de esos numeros la condicion va a ser dada como verdadera sin importar cual de esos numeros sea.
+En el caso de que el numero ingresado no se igual a ninguno de esos numeros la condicion dara como resultado false.
+ 
+if (numero = 3 || numero = 7 || numero = 11) {
+   return true;
+}
+return false;
+
+!
+El operador logico "!" ("NOT") se utiliza en el control de flujo "If" para indicar lo opuesto a una condidicon , por ejemplo si una condicion es que 2 es mayor que 1 y esta resulta verdadera el operador "!" va a devolver que es falsa.
+
+if(!2>1){
+  "el operador devolvera que 2 no es mayor que 1 , osea que es falsa cuando en realidad es verdadera."
+}
